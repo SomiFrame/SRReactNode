@@ -1,0 +1,34 @@
+.SearchResult {
+	margin-top: 15px;
+}
+
+.list-genres {
+	list-style: none;
+	float: left;
+}
+
+.list-genres > li {
+	float: left;
+	padding: 2px 4px;
+}
+
+.movie-image-medium img {
+	width: 180px;
+	height: 200px;
+}
+
+.movie {
+	font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+	margin-bottom: 15px;
+	padding: 20px 45px;
+	border: 1px solid #dedede;
+	-moz-box-shadow:0 2px 13px rgba(89, 89, 89, 0.36);
+	-webkit-box-shadow:0 2px 13px rgba(89, 89, 89, 0.36);
+	box-shadow:0 2px 13px rgba(89, 89, 89, 0.36);
+}
+
+.movie:hover {
+	-moz-box-shadow:0 2px 13px #595959, 0 -1px 13px #333333;
+	-webkit-box-shadow:0 2px 13px #595959, 0 -1px 13px #333333;
+	box-shadow:0 2px 13px #595959, 0 -1px 13px #333333;
+}

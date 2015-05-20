@@ -1,0 +1,9 @@
+/* reset webkit default padding left 40px setting. */
+ul, ol {
+	-webkit-padding-start: 0;
+}
+
+.tc {
+	text-align: center;
+}
+
