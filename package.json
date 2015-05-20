@@ -4,7 +4,7 @@
   "description": "Serverside render implement using react.",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.dev.activenetwork.com/stoneli/TT-IntroduceReact"
+    "url": "https://github.com/stoneli88/SRReactNode"
   },
   "main": "gulpfile.js",
   "readmeFilename": "README.md",
