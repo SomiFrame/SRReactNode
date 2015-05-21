@@ -7,3 +7,7 @@ ul, ol {
 	text-align: center;
 }
 
+.panel-default {
+	margin-top: 70px;
+}
+

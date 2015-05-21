@@ -37,7 +37,7 @@ var DouBanMovieSearch = React.createClass({
   render: function() {
     var val = this.state.keywords;
     return (
-      <form className="DouBanMovieSearch" action="search" method="GET" onSubmit={this.onSubmit}>
+      <form className="DouBanMovieSearch" action="movie/search" method="GET" onSubmit={this.onSubmit}>
         <h1 className="tc">Movie Search</h1>
         <input type="text" placeholder="please enter movie titles." name="q"
                value={val} onChange={this.onKeywordChange} />
